@@ -9,6 +9,11 @@ a {
   decoration:none;
 }
 
+a:visited{
+  text-decoration: none; 
+  decoration:none;
+}
+
 
 body {
   background-color: #efcfa8;
@@ -21,11 +26,10 @@ body {
  
 .page-wrapper {
   background-color: white;
-  margin: auto;
   display: flex;
   flex-direction: column;
   width: auto;
-  max-width: auto;
+  max-width: auto;  
   align-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
