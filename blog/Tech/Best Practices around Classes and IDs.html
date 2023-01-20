@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Class and IDs</title>
+    <meta charset="UTF-8">
+    <link href="../../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    </head>
+  <body>
+   <div id="TOP" class="page-wrapper">
+   <header class="top"> Things to add later </header>
+    <section class="second-header">
+      <h1 class="header-text">Tom's Blog</h1>
+      <h4 class="header-text">Ever Evolving Blog</h3>
+      </section>
+      <section id="Nav">
+    <nav class="nav-box">
+      <div class="nav-text"><a href="../../index.html">Home</a></div>
+      <div class="nav-text"><a href="../About Me/About-Me.html">About Me</a></div>
+      <div class="nav-text"><a href="../Tech/Tech-homepage.html">Tech</a></div>
+      <div class="nav-text"><a href="../Core/core-homepage.html">Core</a></div>
+    </nav>
+  </section>
+    <hr class="under-nav">  
+    <main>
+     <h2 class="blog-text">
+      Understanding the best practices associated with using "Classes" and "IDs"
+    </h2>
+     <h3 class="blog-text">Tech Blog Post 19 January 2023</h3>
+     <hr class="after-blog-title">
+      <h3 class="blog-text">
+        What is Classes and IDS
+      </h3>
+      <p class="blog-text">
+        We can not discuss the best practices associated with using "classes" and "IDs" without going through what Classes and IDs are.
+        In CSS, selectors are used to target a specific element or range of elements of a HTML/website. Using these target/s, CSS is able to apply a set of styles to that element.
+        The two most common selectors are "class" and "ID" in which both are used to target elements to which a style is to be applied.
+      </p>
+       <h3 class="blog-text">Class Selector</h3>
+      <p class="blog-text">
+        A class selector is used to define a style rule that applies to <strong>any element</strong> with an attribute equal to the assigned value.
+        This means that class attributes can be applied to multiple elements and any elements that share this attibutes are targetted to the styles you have defined in CSS.
+        Here is an example of when class is used:
+      </p>
+      <img class="figure" src="../../Image/class-code.png">
+      <p class="blog-text"> Notice the class value "note" is used in 3 different elements. This code will set the font size and color of the elements "note" class is targeting to 120% and red respectively.
+        The output of the code will be like this:
+      </p>
+      <img class="figure" src="../../Image/Output.png">
+      <p class="blog-text">We can see the power of using one class selector to manipulate multiple elements.
+        However, there are some limitations to what the class selector can do and this is where the ID selector can shine.  
+      </p>  
+      <h3 class="blog-text">
+        ID selector
+      </h3>
+      <p class="blog-text">
+        Unlike class selector, ID selector can only target a <strong>single element</strong> on a web page. This means that in a web page, there can only be one element that a unique ID attribute can target. 
+        Here is an example of when ID is used:  
+      </p>
+      <img class="figure" src="../../Image/ID.png">
+      <img class="figure" src="../../Image/ID-Output.png">
+      <p class="blog-text"> In this example we can see the h1 element being targeted using the ID attribute and style was applied. This "myheader" ID is now unique to that web page and can not be used again in this web page. Now you may ask, why wouldn't you just use the class selector for all targeting? 
+        As discussed earlier, ID selectors have special functions which Class selectors can't perform. In a web page, ID selector can be used by the web page to navigate to that specific location of the webpage. Say you assigned an ID attribute to an element, you are able to
+        navigate to that specific element using a special URL link. Here is an example where we can use this function:              
+      </p>
+      <img class="figure" src="../../Image/ID-Navigate-Code.png">
+        <figcaption class="blog-text">Chapter 4 has unique ID attribute and a href to #C4 is present to provide url to Chapter 4</figcaption>             
+      <img class="figure" src="../../Image/End-Navigate-Output.png">
+        <figcaption class="blog-text">This is the output of the code</figcaption>
+      <img class="figure" src="../../Image/Chapter4.png">
+        <figcaption class="blog-text">Clicking on the "Jump to to Chapter 4" function results here</figcaption>
+      <p class="blog-text"> ID selectors are often used by JavaScript, in which the javascript functions can specifically target an element on a web page. Classes target multiple elements on a web page so it is not very useful when requesting a function to a specific element using JavaScript.
+        </p>
+      <h3 class="blog-text">
+          Best Practices associated with using "Classes" vs. "IDs"
+      </h3>
+      <p class="blog-text">Classes and IDs are vital selectors in creating a web page. At first, because of the similarity, it is difficult to understand when to use IDs versus Classes and at times it is hard to see the differences in output/results. Although,
+        there is no hard rule against using only IDs all throughout the web page, it is good practice to minimize the use of IDs as much as possible.
+         IDs should only be used in situations where you want to apply a style to one specific element only, bookmark a specific part of the web page, or work with JavaScript on a specific element, while Classes can be used to style multiple 
+         elements at once. If it is difficult to understand the differences in the early stages of a development career, it is important to, no matter which you choose, be sure to identify the element(s) you are referencing clearly. 
+         </p>
+      <p class="blog-text">
+        In this blog, we talked about what the "Class" and "IDs" selectors are, what the differences are and the best practices around which to use. The only way for us to fully grasp the concept is for us to apply it in our continuously developing  coding life.
+      </p>
+      <div class="back-button flex">
+      <a href="#TOP">&nbsp;Back to Top</a>
+      </div>
+         
+    
+    </main>
+
+    <footer> 
+      <hr class="above-footer">
+      <p class="footer-text">Dev Academy foundation website by <strong>Tom Han</strong> - 2023</p>
+      
+      
+    </footer>
+    
+  
+   </div>
+  </body>
+  
+</html>
