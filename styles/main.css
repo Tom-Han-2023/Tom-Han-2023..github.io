@@ -7,6 +7,7 @@
 a { 
   text-decoration: none; 
   decoration:none;
+  color:black;
 }
 
 a:visited{
@@ -140,7 +141,10 @@ hr.above-footer {
   flex-direction: column;
   justify-content: space-between;
   
+  
  }
+
+
 .blog-text {
   padding: 0px;
   margin-left: 10%;
