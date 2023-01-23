@@ -166,8 +166,8 @@ hr.after-blog-title {
   margin-right: 5%;
   border-style: solid;
   border-color: black;
-  width: 80%;
-  height: auto;
+  width: 40%;
+  height: 50%;
   justify-content: center;
 }
 
@@ -202,7 +202,14 @@ footer {
   text-align: center;
 }
 
+ol {
+  list-style: none;
+  margin: 20px;
+}
 
+li {
+  margin: 15px
+}
 
 
 
