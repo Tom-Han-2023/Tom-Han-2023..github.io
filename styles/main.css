@@ -161,15 +161,21 @@ hr.after-blog-title {
 }
 
 .figure {
-  padding: 0px;
+   padding: 0px;
   margin-left: 10%;
   margin-right: 5%;
   border-style: solid;
   border-color: black;
-  width: 40%;
-  height: 50%;
+  
+  width: 60%;
+  
+  
+  
   justify-content: center;
-}
+  
+ }
+  
+ 
 
 .back-button {
   margin: 0 auto;
@@ -224,7 +230,12 @@ li {
   figcaption {
     font-size:16px;
   }
+
+ .figure {
+  width: 45%;
+  max-height:600px;
  }
+}
  @media (min-width: 1200px) {
   body {
      font-size: 22px;
@@ -232,8 +243,14 @@ li {
    }
    figcaption {
     font-size:19px;
- }
+   
 }
+  .figure {
+   width: 30%;
+   
+     }
+  
+ }
 @media (max-width: 600px) {
   body {
      font-size: 16px;
@@ -250,4 +267,6 @@ li {
     display: grid;
     grid-template-columns: 1fr;
   }
+ 
+ 
 }
