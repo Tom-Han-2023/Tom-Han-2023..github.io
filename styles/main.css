@@ -15,6 +15,10 @@ a:visited{
   decoration:none;
 }
 
+a:hover {
+  color: red;
+}
+
 
 body {
   background-color: #efcfa8;
@@ -143,6 +147,7 @@ hr.above-footer {
   
   
  }
+
 
 
 .blog-text {
