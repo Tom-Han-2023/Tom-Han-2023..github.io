@@ -1,0 +1,65 @@
+body {
+    background-color:  #efcfa8;
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    border: 3px solid black;
+    border-radius: 40px;
+    height: 80vh;
+    
+    
+    
+}
+
+h1 {
+    margin-top: 5vh;
+    margin-bottom: 10px;
+    padding: 2%;
+    font-size: 10vh;
+}
+
+h2 {
+    font-size: 10vh;
+    margin-top: 0;
+    margin-bottom: 10vh;
+    padding: 5%;
+}
+
+button {
+    border: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+#increment-btn {
+    background: #945bde;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#decrement-btn {
+    background: red
+}
+
+#reset-btn {
+  background: black;
+  color: white;
+}
+
+p {
+  font-size: 5vh;
+}
