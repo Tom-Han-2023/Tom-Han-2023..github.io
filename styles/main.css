@@ -4,15 +4,17 @@
 
 }
 
-a { 
-  text-decoration: none; 
-  decoration:none;
+a {
+  text-decoration: none;
+  decoration:
+  none;
   color:black;
 }
 
 a:visited{
-  text-decoration: none; 
-  decoration:none;
+  /* text-decoration: none; */
+  decoration:
+  none;
 }
 
 a:hover {
@@ -226,6 +228,10 @@ li {
   margin: 15px
 }
 
+.blog-link{
+  color: blue;
+
+}
 
 
 
