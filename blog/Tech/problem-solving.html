@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem Solving</title>
+    <meta charset="UTF-8">
+    <link href="../../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    </head>
+  <body>
+   <div id="TOP" class="page-wrapper">
+   <header class="top"> Things to add later </header>
+    <section class="second-header">
+      <h1 class="header-text">Tom's Blog</h1>
+      <h4 class="header-text">Ever Evolving Blog</h3>
+      </section>
+      <section id="Nav">
+    <nav class="nav-box">
+      <div class="nav-text"><a href="https://tom-han-2023.github.io/index.html">Home</a></div>
+      <div class="nav-text"><a href="https://tom-han-2023.github.io/blog/About%20Me/About-Me.html">About Me</a></div>
+      <div class="nav-text"><a href="https://tom-han-2023.github.io/blog/Tech/Tech-homepage.html">Tech</a></div>
+      <div class="nav-text"><a href="https://tom-han-2023.github.io/blog/Core/core-homepage.html">Core</a></div>
+      <div class="nav-text"><a href="https://tom-han-2023.github.io/Projects/Projects-homepage.html" >Projects</a></div>
+    </nav>
+  </section>
+    <hr class="under-nav">  
+    <main>
+     <h2 class="blog-text">
+      Problem Solving
+    </h2>
+     <h3 class="blog-text">Tech Blog Post 02 February 2023</h3>
+     <hr class="after-blog-title">
+      <h3 class="blog-text">
+        Blocked on a Simple Problem: A Lesson in Taking a Break
+      </h3>
+      <p class="blog-text">
+        This week during a Javascript kata challenge, I was stumped by a seemingly simple problem. The challenge was to complete the average function that returns the average of a given array of numbers.
+       </p>
+      <p class="blog-text">
+        I tried various problem-solving techniques such as googling, trying different approaches, reading errors, and debugging, but I couldn't seem to get the code to work. Despite my efforts, I was still stuck and felt frustrated.
+      </p>
+      <p class="blog-text">
+        Then, I decided to take a break and come back to the problem later. After some time away, I returned to the code with fresh eyes and realized that I had forgotten to add the "+" sign in front of the "=" in the loop. This small mistake was preventing the loop from accounting for the previous iteration of the sum. With this in mind, I made the correction (sum += value) and finally succeeded in solving the problem.
+       </p>
+      <p class="blog-text">
+        This experience taught me the importance of taking a break when faced with a challenging problem. Sometimes, stepping away from a problem can give your mind a rest and allow you to approach it with a fresh perspective. In my case, a break allowed me to identify a small but crucial mistake that I would have otherwise missed.
+       </p>
+      <h3 class="blog-text">Elegantly Solving a Problem</h3>
+      <p class="blog-text">
+        In the same challenge, I had the opportunity to solve a problem that was a bit more complex than the average function challenge. The challenge was to define a function that takes a string and removes any word similar to "buzz", regardless of capitalization.
+       </p>
+      <p class="blog-text">
+        To solve this problem, I first fully read the question and wrote pseudo-code for the steps I needed to take. I decided to utilize the array method .filter() to filter the words into a new array and return the new array joined as a string again.
+       </p>
+      <p class="blog-text">
+        Initially, I was happy with my solution as I was able to code out what I had stated in the pseudo code. However, I soon realized that the last test didn't pass because the solution should filter out any words similar to "buzz" - regardless of capitalization (such as Buzz , BUzz, BuZZ etc.).
+       </p>
+      <p class="blog-text">
+        So, my final solution was to convert the items to lowercase and then return the item that didn't equal to "buzz". I felt proud of my solution as it passed all the tests and I was able to solve the problem elegantly step by step.
+      </p>
+      <p class="blog-text">
+        I learned that it is important to read the question and tests thoroughly to understand the requirements fully before attempting to solve the problem. Moreover, writing pseudocode can help me to visualize how I would be writing the code and take it step by step.
+      </p>
+      <p class="blog-text">
+        In conclusion, both the simple and complex problems I faced taught me valuable lessons about problem-solving and the importance of taking a break and thoroughly testing my solutions. These lessons will serve me well as I continue to learn and grow as a programmer.
+      </p>  
+      <h3 class="blog-text">
+        How confident you feel using each of these problem-solving techniques/processes:
+      </h3>
+      <p class="blog-text">
+        <strong>Pseudo-code</strong>: I am still getting used to writing pseudo-code but it definitely helps me brainstorm about how I am going to write the code. It gives me step by step on what I want to achieve in this code. It can help me to write codes dynamically if possible.
+       </p>
+      <p class="blog-text">
+        <strong>Trying something</strong>: This is my go to problem solving technique. I just throw down what code I think might work, try to use the different inbuilt methods I just learned from google and see if it can fit in my code.
+      </p>     
+      <p class="blog-text">
+        <strong>Rubber ducky</strong>: This is usually the technique I use after I fail trying something. I would try to explain my problem and thought process to an object which would make me go through the code from a fresh point of view and explain the code out so that it makes sense and see if there is any gap of understanding. It helps me to solve the problem efficiently. 
+       </p>
+      <p class="blog-text">
+        <strong>Reading error messages</strong>:  Another technique I am getting used to, but it is definitely helpful as most error messages point to the exact line it's having a problem with so I know that I would need to fix the problem in that line. Also googling out the error messages often can fix my problem relatively easily too.
+       </p>
+      <p class="blog-text">
+     <strong>Console.logging</strong>:  This is something that I have been developing my habit of. It helps me to check each step of the code to see if the output is what I have expected it to be. Based on this information I have been amending my code to solve the problem. 
+    </p>
+    <p class="blog-text">
+      <strong>Googling</strong>: This is a technique I am getting most familiar with. Naturally the first thing I do if I have nothing to start the problem with is google. Often there are problems asked regarding very similar problems I have and I could apply the solutions to my problem.
+    </p>
+    <p class="blog-text">
+      <strong>Asking your peers/coaches for help</strong>: This is something I am still lacking on, I always push myself to solve the problem independently but beginning to realize that it can hurt my efficiency in learning and not a good mindset (fixed mindset) I should change the mentality to be focusing about learning, not showing that I could solve problems alone. (taking on growth mindset)
+    </p>
+    <p class="blog-text">
+      <strong>Improving your process with reflection</strong>: This is something I value, learning from previous experience is very important to keep moving forward. I am getting quite use to  and feeling confident using this technique as we been reflecting a lot after each sprints in the foundation.
+    </p>
+      <div class="back-button flex">
+      <a href="#TOP">&nbsp;Back to Top</a>
+      </div>
+         
+    
+    </main>
+
+    <footer> 
+      <hr class="above-footer">
+      <p class="footer-text">Dev Academy foundation website by <strong>Tom Han</strong> - 2023</p>
+      
+      
+    </footer>
