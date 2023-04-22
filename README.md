@@ -1,1 +1,1 @@
-# Tom-Han-2023..github.io
+Welcome to my Personal Blog, this is a blog my first website that I have built during foundation of Dev Academy. I will share and update my portfolio/news whenever I can. Watch this space! Please visit https://tom-han-2023.github.io/
